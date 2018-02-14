@@ -41,7 +41,7 @@ CHANNEL_LAYERS = {
         "BACKEND": "asgi_redis.RedisChannelLayer",
         "ROUTING": "{{cookiecutter.project_name}}.routing.channel_routing",
         "CONFIG": {
-            "hosts": ["redis://h:p7aac28af94f33ad1a8f427d396656d5f4a75646c7636d921dcf9344a243a9df4@ec2-34-197-61-164.compute-1.amazonaws.com:29419"],
+            "hosts": ["{{cookiecutter.redis_uri}}"],
         },
     },
 }
