@@ -51,7 +51,7 @@ chardet==3.0.4
 constantly==15.1.0
 cryptography==2.1.1
 daphne==1.4.2
-Django==1.11.6
+Django==1.11.23
 django-appconf==1.0.2
 django-braces==1.11.0
 django-cors-headers==2.1.0
